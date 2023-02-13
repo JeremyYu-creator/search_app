@@ -8,13 +8,6 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView,
-      // children: [
-      //   {
-      //     path: '/register',
-      //     name: 'register',
-      //     component: () => import ('@/router/index')
-      //   },
-      // ]
     },
     {
       path: '/register',
